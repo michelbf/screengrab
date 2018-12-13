@@ -1,0 +1,6 @@
+/venv
+*.png
+*.tmp
+*.docx
+test.py
+*/*
