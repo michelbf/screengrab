@@ -15,9 +15,9 @@ msg_mode = """
 Usage:  usage: screengrab.py [-h] [--headless] [-c <chromedriver_path>] mode file
 
 [--headless]   -   Optional. Runs Chrome Driver in background.
-mode           -   Specify URL if your source file is in the <ip>:<port> format.
-                   Specify IP if your source file is in the http(s)://something.com format.
 file           -   Specify file where addresses are. 
+
+Your source file addresses should be in the <ip>:<port> format, or in the http(s)://something.com format.
 
 IMPORTANT: If you don't provide the -c argument. ChromeDriver needs to be downloaded 
            to your machine and in your PATH.
